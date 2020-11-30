@@ -56,7 +56,7 @@ function VerificaBaniiJucatorului(user_id)
 						end
 						if KickSauBan == "kick" then
 							vRP.getUserIdentity({user_id, function(identity)
-								local mesaj = "ID: " ..user_id.. " A primit mai mult decat "..valoareamodificatacash.." cash in mai putin de 5 secunde. Valoarea veche: $" ..valoarevechecash[user_id].. " Valoarea noua: $" ..cash[user_id].. " Diferenta: $" ..diferenta.. " si a primit automat kick. @everyone"
+								local mesaj = "ID: " ..user_id.. " a primit mai mult decat "..valoareamodificatacash.." cash in mai putin de 5 secunde. Valoarea veche: $" ..valoarevechecash[user_id].. " Valoarea noua: $" ..cash[user_id].. " Diferenta: $" ..diferenta.. " si a primit automat kick. @everyone"
 								local embed = {
 									{
 									  ["color"] = 1234521,
